@@ -1,30 +1,30 @@
 class ClaudeUsage < Formula
   desc "CLI for tracking Claude usage windows: status bar, token tracking, defer logic"
   homepage "https://github.com/abhay/claude-usage-rs"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "28d8030dd12df2e57e1d2e4792995ebf400b8271f5a5206c46421b6d4f659699"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.3/claude-usage-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "e094a6a2cf03fd948970f6927194f608cee9d5f43b0c87305e9ff19725211d9a"
     end
 
     on_intel do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "5b61a607d75da84d857c0d0faa1f82a4f875d59fb69e067943922929e48747b1"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.3/claude-usage-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "4b3a909c3a04dbbe5d16b391e4cf0cb5290035d8a5ba78683f5cee48a1110d63"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1a0086594b31addc39084c97f6ad3c399d1a6e4b4422a637c8204688ab4431af"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.3/claude-usage-v0.1.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "21e707f61439a207c950543fdd77bf38374d6357a95bf9f6e3b8147f2176dbfa"
     end
 
     on_intel do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "19bc9e90b19bb5a49d1bdacbd2c69e02c870ef3ec844b7fe849c204948fee64b"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.3/claude-usage-v0.1.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1081ab97203d36296c1a046d16ce3f3621afead54a7d6e7f797572c49cb2dca2"
     end
   end
 
