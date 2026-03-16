@@ -1,30 +1,30 @@
 class ClaudeUsage < Formula
   desc "CLI for tracking Claude usage windows: status bar, token tracking, defer logic"
   homepage "https://github.com/abhay/claude-usage-rs"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.1/claude-usage-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "11b9534a14d9ecc6cf613630e93e997bab451fcb01dec70f28e02d15be5f9f24"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "a44316e8a05fbefda60f1af00c39db22b86df83ed0e027f566046caa9fc62f66"
     end
 
     on_intel do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.1/claude-usage-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "6dc7b8e73337e844fdc05f88c63fc56cc48fc35c59e79bc0597181b08e70b969"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "e221fa94b9ad649e2d2bcd35477d8ee6359b781369c1c8f2d2873ea04d60908b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.1/claude-usage-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6578a889cccabd1db464db17d139b622c6cf8a185f798d5ffe300eef004d84d0"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1c343616288c3f11fbeb2ff841672774c30522320509f5d22b52fbb0adbe12fc"
     end
 
     on_intel do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.1/claude-usage-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "60c07abcb711de4daba8e949f9cecbdc798715c6a35341d2253a176fb2ff3bf1"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.2/claude-usage-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b2560ab0d4789bc1041eabae7844818f6fcfabea2b087580274cd069574844d1"
     end
   end
 
