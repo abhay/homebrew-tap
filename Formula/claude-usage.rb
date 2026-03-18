@@ -1,30 +1,30 @@
 class ClaudeUsage < Formula
   desc "CLI for tracking Claude usage windows: status bar, token tracking, defer logic"
   homepage "https://github.com/abhay/claude-usage-rs"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.4/claude-usage-v0.1.4-aarch64-apple-darwin.tar.gz"
-      sha256 "edc40b51eb2ddf6a4c81690a83c77dd3cf19a1cd58de29b880b4580d0126593f"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.5/claude-usage-v0.1.5-aarch64-apple-darwin.tar.gz"
+      sha256 "734bb18b8ec4c2d20af16a660f9dffce1f2057d6358cd27ba36be0b54cc071ed"
     end
 
     on_intel do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.4/claude-usage-v0.1.4-x86_64-apple-darwin.tar.gz"
-      sha256 "d9d206c165484a9ae03b733b499cc8bc02c1b5ecfb9341398b1cf0871451cb44"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.5/claude-usage-v0.1.5-x86_64-apple-darwin.tar.gz"
+      sha256 "72fc103d415659f58731605ef3a0c4035fe3869e23eb7d01ac1b35045f4c7276"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.4/claude-usage-v0.1.4-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f2dc58f5e94dbad4ac70cb7c80cef475b6fc2bc7f4140507d49c3b251a875042"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.5/claude-usage-v0.1.5-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1e86bc241770ddb8c0131a166f0b05f1d98b0b63a84f7a9ca9b3cb55fc1338bb"
     end
 
     on_intel do
-      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.4/claude-usage-v0.1.4-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ed969256dce05c17e4e447eea80d97e702ad7d52cb32f4c79787980efd7f89a7"
+      url "https://github.com/abhay/claude-usage-rs/releases/download/v0.1.5/claude-usage-v0.1.5-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7abe9fe0988239b1782009e95f2991771d519468e8c9afbfa7f434ba43f74313"
     end
   end
 
